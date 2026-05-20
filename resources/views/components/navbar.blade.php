@@ -1,12 +1,16 @@
 <nav id="nav" class="at-top">
     <div class="nav-inner">
-        <a class="nav-logo" href="#" wire:navigate>
-            <img src="https://www.psa-inc.org/assets/template/logo/PSA-Logoo.png" alt="PSA" />
-            <div class="nav-logo-text">
-                <span>Philippine Society of Anesthesiologists</span>
-                <span>Est. 1954</span>
-            </div>
-        </a>
+    <a class="nav-logo" href="#" wire:navigate>
+        <img src="{{ asset('images/PSA_LOGO.png') }}" alt="PSA Logo" />
+
+        <div class="nav-logo-text">
+            <span class="logo-title">
+                Philippine Society of
+                <br />
+                Anesthesiologists, Inc.
+            </span>
+        </div>
+    </a>
 
         <div class="nav-links">
             <div class="nav-item"><a href="#" wire:navigate>Home</a></div>
