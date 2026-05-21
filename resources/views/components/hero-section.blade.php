@@ -34,18 +34,8 @@ new class extends Component {
                 <div class="stat-num">5K+</div>
                 <div class="stat-label">Members nationwide</div>
             </div>
-            <div class="hero-stat">
-                <div class="stat-num">80+</div>
-                <div class="stat-label">Chapter presidents</div>
-            </div>
-            <div class="hero-stat">
-                <div class="stat-num">May 14</div>
-                <div class="stat-label">Next convention 2026</div>
-            </div>
+    
+           
         </div>
-    </div>
-    <div class="hero-scroll">
-        <span>Scroll</span>
-        <div class="scroll-line"></div>
     </div>
 </section>

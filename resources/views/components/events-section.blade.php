@@ -9,22 +9,22 @@ new class extends Component {
 
 <div class="ticker-wrap">
     <div class="ticker-track">
-        <span class="ticker-item">Midyear Convention 2026 <span class="ticker-sep">◆</span> May 14 · KCC Events Center ·
+        <span class="ticker-item">Midyear Convention 2026 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="CurrentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-diamond-icon lucide-diamond"><path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z"/></svg>  May 14 · KCC Events Center ·
             General Santos City</span>
-        <span class="ticker-item">ASEAN Congress of Anesthesiologists 2025 <span class="ticker-sep">◆</span>
+        <span class="ticker-item">ASEAN Congress of Anesthesiologists 2025 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="CurrentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-diamond-icon lucide-diamond"><path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z"/></svg> 
             ACA2025Manila.org</span>
-        <span class="ticker-item">RASPHIL Convention 2026 <span class="ticker-sep">◆</span> Subspecialty &amp;
+        <span class="ticker-item">RASPHIL Convention 2026 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="CurrentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-diamond-icon lucide-diamond"><path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z"/></svg>  Subspecialty &amp;
             SIG</span>
-        <span class="ticker-item">Pickleball Tournament 2026 <span class="ticker-sep">◆</span> Register Now</span>
-        <span class="ticker-item">Membership Open <span class="ticker-sep">◆</span> Join the PSA Community</span>
-        <span class="ticker-item">Midyear Convention 2026 <span class="ticker-sep">◆</span> May 14 · KCC Events Center ·
+        <span class="ticker-item">Pickleball Tournament 2026 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="CurrentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-diamond-icon lucide-diamond"><path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z"/></svg>  Register Now</span>
+        <span class="ticker-item">Membership Open <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="CurrentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-diamond-icon lucide-diamond"><path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z"/></svg> Join the PSA Community</span>
+        <span class="ticker-item">Midyear Convention 2026 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="CurrentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-diamond-icon lucide-diamond"><path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z"/></svg>  May 14 · KCC Events Center ·
             General Santos City</span>
-        <span class="ticker-item">ASEAN Congress of Anesthesiologists 2025 <span class="ticker-sep">◆</span>
+        <span class="ticker-item">ASEAN Congress of Anesthesiologists 2025 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="CurrentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-diamond-icon lucide-diamond"><path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z"/></svg>
             ACA2025Manila.org</span>
-        <span class="ticker-item">RASPHIL Convention 2026 <span class="ticker-sep">◆</span> Subspecialty &amp;
+        <span class="ticker-item">RASPHIL Convention 2026 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="CurrentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-diamond-icon lucide-diamond"><path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z"/></svg>  Subspecialty &amp;
             SIG</span>
-        <span class="ticker-item">Pickleball Tournament 2026 <span class="ticker-sep">◆</span> Register Now</span>
-        <span class="ticker-item">Membership Open <span class="ticker-sep">◆</span> Join the PSA Community</span>
+        <span class="ticker-item">Pickleball Tournament 2026 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="CurrentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-diamond-icon lucide-diamond"><path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z"/></svg>  Register Now</span>
+        <span class="ticker-item">Membership Open <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="CurrentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-diamond-icon lucide-diamond"><path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z"/></svg>  Join the PSA Community</span>
     </div>
 </div>
 
@@ -55,10 +55,9 @@ new class extends Component {
             <div class="mvv-line"></div>
             <div class="mvv-title">Shared Values</div>
             <p class="mvv-body" style="margin-bottom:24px">
-                <strong>Commitment to Quality Care</strong> · Excellence in every procedure and patient
-                encounter.<br /><br />
-                <strong>Concern for Members</strong> · Supporting our community of professionals.<br /><br />
-                <strong>Professional Growth</strong> · Lifelong learning and advancement.
+                <strong>Commitment to Quality Care</strong> |
+                <strong>Concern for Members</strong> |
+                <strong>Professional Growth</strong>
             </p>
             <a href="https://www.youtube.com/watch?v=hkIcSJ5enp8" target="_blank" class="link-teal"
                 style="font-size:10px;color:var(--teal-bright);">Listen to PSA Hymn</a>
@@ -80,28 +79,28 @@ new class extends Component {
                 </div>
             </div>
             <div class="conv-content reveal reveal-delay-1">
-                <div class="eyebrow">Featured Event</div>
+                <div class="text-black">Featured Event</div>
                 <h2 class="section-h2" style="margin-bottom:24px">Midyear<br />Convention<br />2026</h2>
                 <p>Join the nation's finest anesthesiologists in General Santos City for the PSA Midyear Convention
                     2026. Featuring world-class scientific sessions, social programs, and professional networking.</p>
                 <div class="conv-cards">
                     <a href="https://www.psa-inc.org/scientific-program" target="_blank" class="conv-card">
-                        <div class="conv-card-icon">🔬</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-microscope-icon lucide-microscope"><path d="M6 18h8"/><path d="M3 22h18"/><path d="M14 22a7 7 0 1 0 0-14h-1"/><path d="M9 14h2"/><path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z"/><path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/></svg>
                         <div class="conv-card-title">Scientific Program</div>
                         <div class="conv-card-sub">Lectures &amp; workshops</div>
                     </a>
                     <a href="https://www.psa-inc.org/midyear-registration-details" target="_blank" class="conv-card">
-                        <div class="conv-card-icon">📋</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-pen-icon lucide-clipboard-pen"><path d="M16 4h2a2 2 0 0 1 2 2v2"/><path d="M21.34 15.664a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/><path d="M8 22H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/></svg>
                         <div class="conv-card-title">Registration</div>
                         <div class="conv-card-sub">Secure your slot</div>
                     </a>
                     <a href="https://www.psa-inc.org/social-program" target="_blank" class="conv-card">
-                        <div class="conv-card-icon">🎉</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-icon lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg>
                         <div class="conv-card-title">Social Programs</div>
                         <div class="conv-card-sub">Events &amp; networking</div>
                     </a>
                     <a href="https://www.psa-inc.org/pickleball-tournament" target="_blank" class="conv-card">
-                        <div class="conv-card-icon">🏓</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-loader-pinwheel-icon lucide-loader-pinwheel"><path d="M22 12a1 1 0 0 1-10 0 1 1 0 0 0-10 0"/><path d="M7 20.7a1 1 0 1 1 5-8.7 1 1 0 1 0 5-8.6"/><path d="M7 3.3a1 1 0 1 1 5 8.6 1 1 0 1 0 5 8.6"/><circle cx="12" cy="12" r="10"/></svg>
                         <div class="conv-card-title">Pickleball Tournament</div>
                         <div class="conv-card-sub">Sports &amp; recreation</div>
                     </a>
@@ -117,7 +116,7 @@ new class extends Component {
     <div class="section-wrap">
         <div class="events-header reveal">
             <div>
-                <div class="eyebrow">Latest</div>
+                <div class="text-gray-800">Latest</div>
                 <h2 class="section-h2">Recent Events &amp;<br />Announcements</h2>
             </div>
             <a class="link-teal" href="#" wire:navigate>View Gallery</a>
@@ -135,7 +134,9 @@ new class extends Component {
                     <span class="event-tag">Congress · Oct 2025</span>
                     <div class="event-title">ASEAN Congress of Anesthesiologists 2025</div>
                     <div class="event-meta">Marriott Grand Ballroom · Pasay City, Philippines</div>
-                    <div class="event-arrow">→</div>
+                    <div class="event-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
+                    </div>
                 </div>
             </div>
             <div class="event-card" onclick="window.location='#'">
@@ -148,7 +149,9 @@ new class extends Component {
                     <span class="event-tag">Convention · May 2026</span>
                     <div class="event-title">PSA Midyear Convention 2026</div>
                     <div class="event-meta">KCC Events Center · General Santos City</div>
-                    <div class="event-arrow">→</div>
+                    <div class="event-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
+                    </div>
                 </div>
             </div>
             <div class="event-card" onclick="window.open('https://www.psa-inc.org/pickleball-tournament','_blank')">
@@ -161,7 +164,9 @@ new class extends Component {
                     <span class="event-tag">Sports · May 2026</span>
                     <div class="event-title">Pickleball Tournament 2026</div>
                     <div class="event-meta">General Santos City · Midyear Convention</div>
-                    <div class="event-arrow">→</div>
+                    <div class="event-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg>
+                    </div>
                 </div>
             </div>
         </div>
@@ -173,7 +178,7 @@ new class extends Component {
     <div class="section-wrap">
         <div class="contact-grid">
             <div class="contact-info reveal">
-                <div class="eyebrow">Contact</div>
+                <div class="text-black">Contact</div>
                 <h2 class="section-h2" style="margin-bottom:24px;">Get in<br />Touch</h2>
                 <p>Our secretariat team is available Monday through Friday to assist with membership, events, and
                     professional inquiries.</p>
