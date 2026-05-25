@@ -13,7 +13,7 @@
     </a>
 
         <div class="nav-links">
-            <div class="nav-item"><a href="#" wire:navigate>Home</a></div>
+            <div class="nav-item"><a href="{{ route('home') }}" wire:navigate>Home</a></div>
 
             <div class="nav-item">
                 <span>About Us ▾</span>
@@ -64,19 +64,8 @@
                 </div>
             </div>
 
-            <div class="nav-item">
-                <span>Gallery ▾</span>
-                <div class="mega-drop">
-                    <div class="sub-item">
-                        <a href="#" wire:navigate>ACA 2025 <span>›</span></a>
-                        <div class="sub-drop">
-                            <a href="#" wire:navigate>Day 1</a>
-                            <a href="#" wire:navigate>Day 2</a>
-                            <a href="#" wire:navigate>Day 3</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                       <div class="nav-item"><a href="{{ route('gallery') }}" wire:navigate>Gallery</a></div>
+
 
             <div class="nav-item"><a href="#" wire:navigate>Membership</a></div>
             <a class="nav-cta" href="#" wire:navigate>Register 2026<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></a>

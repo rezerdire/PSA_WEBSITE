@@ -8,6 +8,7 @@ new class extends Component
 };
 ?>
 
-<div>
-    {{-- We must ship. - Taylor Otwell --}}
-</div>
+<section id="gallery-section">
+
+
+</section>

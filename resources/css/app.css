@@ -547,6 +547,17 @@ h3 {
     display: flex;
     align-items: center;
 
+
+}
+#gallery-section{
+  min-height: 100vh;
+    background: var(--deep);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+
 }
 .hero-bg-photo {
     position: absolute;
