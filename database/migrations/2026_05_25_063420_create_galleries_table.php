@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             
             $table->string('title');
-            $table->string('image');
-
+            $table->string('image')->nullable();
+            $table->string('slug')->unique();
             $table->foreignId('category_id')
                 ->nullable()
                 ->constrained('gallery_categories')

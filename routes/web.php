@@ -7,6 +7,8 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/gallery', function () {
-    return view('gallery');
+    return view('gallery', [
+        'categories' => GalleryCategory::withCount('galleries')->get(),
+        'images'     => Gallery::with('category')->latest()->get(),
+    ]);
 })->name('gallery');
-
