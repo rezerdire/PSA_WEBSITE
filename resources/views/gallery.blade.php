@@ -5,7 +5,7 @@
 
     <main>
         
-        <x-gallery-section />
+        <x-gallery-section :categories="$categories" :images="$images" />
     </main>
 
     <x-footer />

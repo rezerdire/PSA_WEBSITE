@@ -20,21 +20,7 @@ class GalleryForm
             ->components([
                 TextInput::make('title')
                     ->required()
-                    ->maxLength(255)
-                    ->live(onBlur: true)
-                    ->afterStateUpdated(function (string $operation, $state, Set $set) {
-                        if ($operation !== 'create') {
-                            return;
-                        }
-                        $set('slug', Str::slug($state));
-                    }),
-
-                TextInput::make('slug')
-                    ->required()
-                    ->disabled()
-                    ->maxLength(255)
-                    ->dehydrated()
-                    ->unique(Gallery::class, 'slug', ignoreRecord: true),
+                    ->maxLength(255),
 
                 Select::make('category_id')
                     ->label('Category')

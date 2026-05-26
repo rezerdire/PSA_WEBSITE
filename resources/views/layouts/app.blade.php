@@ -55,6 +55,31 @@
         // REVEAL
         const io = new IntersectionObserver(entries => { entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('up'); }); }, { threshold: .1 });
         document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+
+        // Theme toggle
+function toggleTheme() {
+    const isLight = document.body.classList.toggle('light-mode');
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    updateThemeIcon(isLight);
+}
+
+function updateThemeIcon(isLight) {
+    const icon = document.getElementById('theme-icon');
+    const iconMob = document.getElementById('theme-icon-mob');
+    const symbol = isLight ? '🌙' : '☀';
+    if (icon) icon.textContent = symbol;
+    if (iconMob) iconMob.textContent = symbol;
+}
+
+// Persist on page load
+(function () {
+    const saved = localStorage.getItem('theme');
+    if (saved === 'light') {
+        document.body.classList.add('light-mode');
+        updateThemeIcon(true);
+    }
+})();
     </script>
     @stack('scripts')
 </body>

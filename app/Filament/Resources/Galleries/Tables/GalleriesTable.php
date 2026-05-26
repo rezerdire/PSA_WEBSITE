@@ -22,9 +22,7 @@ class GalleriesTable
                     ->height(60)
                     ->width(60),
 
-                TextColumn::make('slug')
-                    ->searchable(),
-
+        
                 TextColumn::make('category.name')       
                     ->label('Category')
                     ->sortable(),

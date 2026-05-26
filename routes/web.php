@@ -1,14 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GalleryController;
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
-
-Route::get('/gallery', function () {
-    return view('gallery', [
-        'categories' => GalleryCategory::withCount('galleries')->get(),
-        'images'     => Gallery::with('category')->latest()->get(),
-    ]);
-})->name('gallery');
+Route::get('/', [GalleryController::class, 'Home'])->name('home');
+Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
