@@ -5,7 +5,7 @@
 
     <main>
         <x-hero-section />
-        <x-gallery-section :categories="$categories" :images="$images" />
+        <!-- <x-gallery-section :categories="$categories" :images="$images" /> -->
         <x-events-section />
 
     </main>

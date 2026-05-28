@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Gallery;
 use App\Models\GalleryCategory;
 
+
 class GalleryController extends Controller
 {
     public function index()
@@ -21,5 +22,7 @@ class GalleryController extends Controller
             'categories' => GalleryCategory::all(),
             'images'     => Gallery::with('category')->latest()->get(),
         ]);
+
+    
     }
 }

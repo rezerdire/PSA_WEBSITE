@@ -3,41 +3,19 @@
     <a class="nav-logo" href="#" wire:navigate>
         <img src="{{ asset('images/PSA_LOGO.png') }}" alt="PSA Logo" />
 
-        <div class="nav-logo-text">
-            <span class="logo-title">
+            <div class="text-white leading-tight">
+            <h1 class="text-sm sm:text-base font-semibold tracking-wide">
                 Philippine Society of
-                <br />
+            </h1>
+            <h1 class="text-sm sm:text-base font-semibold tracking-wide">
                 Anesthesiologists, Inc.
-            </span>
+            </h1>
         </div>
     </a>
 
         <div class="nav-links">
             <div class="nav-item"><a href="{{ route('home') }}" wire:navigate>Home</a></div>
-
-            <div class="nav-item">
-                <span>About Us ▾</span>
-                <div class="mega-drop">
-                    <a href="#" wire:navigate>Officers &amp; Board</a>
-                    <div class="sub-item">
-                        <a href="#" wire:navigate>Subspecialty &amp; SIG <span>›</span></a>
-                        <div class="sub-drop">
-                            <a href="https://www.psa-inc.org/subspec-activity" target="_blank">RASPHIL Convention 2026
-                                ↗</a>
-                        </div>
-                    </div>
-                    <a href="#" wire:navigate>Chapter Presidents</a>
-                    <div class="sub-item">
-                        <a href="#" wire:navigate>Legacy <span>›</span></a>
-                        <div class="sub-drop">
-                            <a href="#" wire:navigate>Past Presidents</a>
-                            <a href="#" wire:navigate>Quintin J. Gomez Awardee</a>
-                            <a href="#" wire:navigate>Manuel V. Silao Awardee</a>
-                            <a href="#" wire:navigate>PSA Hymn</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="nav-item"><a href="{{ route('about-us') }}" wire:navigate>About Us</a></div>
 
             <div class="nav-item">
                 <span>CME Activities ▾</span>

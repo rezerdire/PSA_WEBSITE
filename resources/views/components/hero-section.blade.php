@@ -12,8 +12,7 @@ new class extends Component {
     <div class="hero-bg-photo"></div>
     <div class="hero-mesh"></div>
     <div class="hero-grain"></div>
-    <div class="hero-grid"></div>
-    <div class="hero-glow"></div>
+]    <div class="hero-glow"></div>
     <div class="hero-content">
         <div>
             <p class="hero-eyebrow">Philippine Society of Anesthesiologists</p>
