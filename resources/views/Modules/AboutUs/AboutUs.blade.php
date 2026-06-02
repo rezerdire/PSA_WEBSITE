@@ -4,7 +4,7 @@
     <x-navbar />
 
     <main>
-        <div class="text-lg">About Us</div>
+        <livewire:about-us />
   </main>
 
     <x-footer />

@@ -197,8 +197,7 @@ h3 {
     content: "";
     position: absolute;
     inset: 0;
-    background: url("https://www.psa-inc.org/images/gallery/aca_2025/day1/lectures/_AX_0329.jpg")
-        center/cover;
+ 
     opacity: 0.07;
 }
 
@@ -356,8 +355,9 @@ h3 {
 .mega-drop {
     display: none;
     position: absolute;
-    top: calc(100% + 16px);
+    top: 100%;           /* flush to the nav-item, no gap */
     left: -24px;
+    padding-top: 8px;    /* visual spacing handled inside instead */
     background: var(--abyss);
     border: 1px solid rgba(13, 212, 238, 0.15);
     border-top: 2px solid var(--teal-bright);
@@ -365,7 +365,6 @@ h3 {
     box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
     animation: dropIn 0.2s ease;
 }
-
 @keyframes dropIn {
     from {
         opacity: 0;
@@ -381,7 +380,9 @@ h3 {
 .nav-item:hover .mega-drop {
     display: block;
 }
-
+.mega-drop a:hover{
+display: block;
+}
 .mega-drop a {
     display: block;
     padding: 11px 24px;
@@ -402,6 +403,7 @@ h3 {
 
 .sub-item {
     position: relative;
+    display: block;
 }
 
 .sub-item > a {
@@ -419,6 +421,10 @@ h3 {
     border: 1px solid rgba(13, 212, 238, 0.12);
     border-top: 2px solid var(--emerald-bright);
     min-width: 210px;
+}
+
+.subdrop:hover {
+    display: block;
 }
 
 .sub-item:hover .sub-drop {
@@ -1243,7 +1249,7 @@ h3 {
         padding: 16px 24px;
     }
 
-    /* Stat panel: 2×2 grid on mobile */
+
     .hero-panel {
         display: grid;
         grid-template-columns: 1fr 1fr;

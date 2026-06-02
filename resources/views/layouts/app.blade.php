@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PSA — Philippine Society of Anesthesiologists</title>
+    <title>Philippine Society of Anesthesiologists</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap"

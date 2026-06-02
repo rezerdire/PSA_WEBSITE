@@ -3,29 +3,26 @@
     <a class="nav-logo" href="#" wire:navigate>
         <img src="{{ asset('images/PSA_LOGO.png') }}" alt="PSA Logo" />
 
-            <div class="text-white leading-tight">
-            <h1 class="text-sm sm:text-base font-semibold tracking-wide">
+            <div class="text-white">
+            <h2 class="text-sm sm:text-base">
                 Philippine Society of
-            </h1>
-            <h1 class="text-sm sm:text-base font-semibold tracking-wide">
+            </h2>
+            <h2 class="text-sm sm:text-base">
                 Anesthesiologists, Inc.
-            </h1>
+            </h2>
         </div>
     </a>
 
         <div class="nav-links">
-            <div class="nav-item"><a href="{{ route('home') }}" wire:navigate>Home</a></div>
-            <div class="nav-item"><a href="{{ route('about-us') }}" wire:navigate>About Us</a></div>
+            <div class="nav-item"><a href="{{ route('home') }}" >Home</a></div>
+            <div class="nav-item"><a href="{{ route('about-us') }}">About Us</a></div>
 
             <div class="nav-item">
                 <span>CME Activities ▾</span>
                 <div class="mega-drop">
                     <div class="sub-item">
-                        <a href="#" wire:navigate>Convention <span>›</span></a>
-                        <div class="sub-drop">
-                            <a href="#" wire:navigate>Midyear Convention 2026</a>
-                            <a href="https://aca2025manila.org/" target="_blank">ACA 2025 Manila ↗</a>
-                        </div>
+                        <a href="#" wire:navigate>Convention</a>
+                      
                     </div>
                     <a href="https://www.psa-inc.org/tagisan" target="_blank">Tagisan ng Talino ↗</a>
                     <a href="#" wire:navigate>Interesting Case Contest</a>

@@ -24,6 +24,8 @@ new class extends Component {
                 <a class="btn-ghost" href="#" wire:navigate>Become a Member</a>
             </div>
         </div>
+        
+<!--         
         <div class="hero-panel">
             <div class="hero-stat">
                 <div class="stat-num">70+</div>
@@ -33,8 +35,7 @@ new class extends Component {
                 <div class="stat-num">5K+</div>
                 <div class="stat-label">Members nationwide</div>
             </div>
-    
-           
-        </div>
+        </div> -->
+
     </div>
 </section>
